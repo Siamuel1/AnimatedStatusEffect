@@ -6,7 +6,7 @@ Choose an interval from **2 to 10 seconds**. The default is **10 seconds**. Serv
 > Experimental: syntax and simulated behavior checks passed, but live Discord compatibility has not been verified. Personal-account automation can result in account termination under [Discord's policy](https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots).
 
 ## Preview
-![Coding status example](Screenshots/coding-demo.gif)
+[Testing]
 
 Illustrative preview at two seconds per frame, not a recording of Discord. Real updates may be delayed or rejected.
 
