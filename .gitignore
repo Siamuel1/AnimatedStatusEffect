@@ -1,0 +1,7 @@
+# Local settings and editor files do not belong in the repository.
+*.config.json
+.env
+.env.*
+.DS_Store
+Thumbs.db
+node_modules/
