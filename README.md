@@ -51,7 +51,3 @@ It runs while desktop Discord and the plugin are active. Opening the settings an
 ## Troubleshooting and development
 
 Read [Troubleshooting](docs/TROUBLESHOOTING.md) for loading and rate-limit errors, or [Code guide](docs/CODE_GUIDE.md) to follow the implementation. The [risk notes](docs/ACCOUNT_RISKS.md) explain the difference between enforcement and account compromise.
-
-## Reference
-
-The folder layout was inspired by [toluschr/BetterDiscord-Animated-Status](https://github.com/toluschr/BetterDiscord-Animated-Status). This package contains our plugin and original examples and preview graphics. It does not include the reference project's source files or screenshots.
