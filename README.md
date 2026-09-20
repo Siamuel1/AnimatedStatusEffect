@@ -1,5 +1,4 @@
 # AnimatedStatusEffect
-
 A small BetterDiscord plugin for rotating custom status text. I kept the code in one file so it is easy to read and change.
 
 Choose an interval from **2 to 10 seconds**. The default is **10 seconds**. Server cooldowns take priority, so the actual changes can take longer.
@@ -7,13 +6,11 @@ Choose an interval from **2 to 10 seconds**. The default is **10 seconds**. Serv
 > Experimental: syntax and simulated behavior checks passed, but live Discord compatibility has not been verified. Personal-account automation can result in account termination under [Discord's policy](https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots).
 
 ## Preview
-
 ![Coding status example](Screenshots/coding-demo.gif)
 
 Illustrative preview at two seconds per frame, not a recording of Discord. Real updates may be delayed or rejected.
 
 ## Install
-
 1. Install BetterDiscord from its [official website](https://betterdiscord.app/).
 2. Download [AnimatedStatusEffect.plugin.js](AnimatedStatusEffect.plugin.js) using GitHub's **Download raw file** button. Keep the `.plugin.js` extension.
 3. In desktop Discord, open **Settings > BetterDiscord > Plugins > Open Plugins Folder**.
@@ -24,7 +21,6 @@ Illustrative preview at two seconds per frame, not a recording of Discord. Real 
 On Windows the plugin folder is usually `%appdata%\BetterDiscord\plugins`.
 
 ## Examples
-
 Open an example file and paste its entire contents into the plugin's **Statuses** box. These are plain-text lists, not configuration imports.
 
 | Example | Contents |
@@ -38,7 +34,6 @@ Open an example file and paste its entire contents into the plugin's **Statuses*
 See the [example guide](Examples/README.md) for more previews.
 
 ## What it does
-
 - Cycles through the list in order and loops back to the start.
 - Accepts up to 128 characters per status and skips blank lines.
 - Replaces the custom status, including its existing emoji.
